@@ -1,7 +1,7 @@
 # [Aulas Particulares]()
 
 <p align="center">
-  <img src="Cartão/virtual.jpg" width="450"/>
+  <img src="virtual.jpg" width="450"/>
 </p>
 
 
@@ -12,12 +12,12 @@
 - [Literatura do ensino médio](http://brasilescola.uol.com.br/)
 - [Exercícios resolvidos](https://www.infoescola.com/exercicios/)
 
-### Creator
+### Criador
 
 **Victor Ribeiro Carreira**
 
 - [Curriculum lattes](http://lattes.cnpq.br/9663791782095105)
 
-## License
+## Licença
 
 Copyright (c) 2017 Victor Carreira.
