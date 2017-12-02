@@ -1,22 +1,16 @@
 # [Aulas Particulares]()
 
 <p align="center">
-  <img src="Cartão/virtual.pdf" width="450"/>
+  <img src="Cartão/virtual.jpg" width="450"/>
 </p>
 
 
-## Presentation
-This repository is all my working classes .
 
-## Objective
-The main purpose organize classes.
+## Referências on-line:
 
-## Web references:
-  It is important to take a look on this sites.
-
-- [Well-Logging overview](https://guiadoestudante.abril.com.br/universidades/descubra-os-10-melhores-metodos-de-estudo-para-se-preparar-para-o-vestibular-e-enem/#)
-- [BDEP](http://brasilescola.uol.com.br/)
-- [IODP project](https://www.infoescola.com/exercicios/)
+- [Métodos de estudo](https://guiadoestudante.abril.com.br/universidades/descubra-os-10-melhores-metodos-de-estudo-para-se-preparar-para-o-vestibular-e-enem/#)
+- [Literatura do ensino médio](http://brasilescola.uol.com.br/)
+- [Exercícios resolvidos](https://www.infoescola.com/exercicios/)
 
 ### Creator
 
