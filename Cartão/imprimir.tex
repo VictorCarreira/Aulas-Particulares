@@ -1,0 +1,69 @@
+% Arquivo LaTeX de exemplo de cart�es de visita
+%
+% Vers�o 1: Jes�s P. Mena-Chalco
+%    Sun Mar 20 20:09:55 BRT 2011
+%
+% Nota:
+%   Este exemplo � uma adapta��o do trabalho realizado por
+%   Jan Erik Odegard (1996) da Universidade Rice.
+%   Os arquivos originais do modelo est�o dispon�veis em:
+%   http://www-ece.rice.edu/gsc/bus_cards/bus_cards.html
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[pdftex]{graphicx}
+\usepackage{url}
+\usepackage[a4paper,top=1.0cm,bottom=1.0cm,left=1.0cm,right=1.0cm]{geometry} % margens
+\usepackage[usenames,svgnames,dvipsnames]{xcolor}
+\usepackage{amsmath}
+
+\urlstyle{same}
+\pagestyle{empty}
+
+\begin{document}
+%{%
+%	\usebackgroundtemplate{
+%		\includegraphics[width=\paperwidth,height=\paperheight]{Imagens/fundocartao.jpg}
+%}
+\setlength{\unitlength}{1mm}
+\begin{picture}(200,240)(5,35)
+  \multiput(0,0)(0,56){5}{    % 5 linhas
+    \multiput(0,0)(95,0){2}{  % 2 colunas
+      \begin{picture}(89,51)(0,0)
+        \put(0,52) {\line(0,1) {1}}
+        \put(-1,51){\line(-1,0){1}}
+        \put(89,52){\line(0,1) {1}}
+        \put(90,51){\line(1,0) {1}}
+        \put(3,48) {\line(1,0) {83}}
+
+        \put(26,42){\large\textcolor{NavyBlue}{Victor Ribeiro Carreira}}
+        \put(26,39){\textsc{\scriptsize\textcolor{NavyBlue}{Professor particular}}}
+        \put(26,36){\textsc{\scriptsize\textcolor{NavyBlue}{Matem\'atica, f\'isica, qu\'imica e inform\'atica}}}
+        \put(26,33){\textsc{\scriptsize }}
+
+        \put(26,27){\scriptsize \begin{math} erf(x)=\dfrac{2}{\sqrt{\pi}}\int^{x}_{0}e^{-t^{2}}dt \end{math}}
+        %\put(26,24){\scriptsize Departamento de Ci�ncia da Computa��o}
+        %\put(26,21){\scriptsize Rua do Mat�o, 1010}
+        %\put(26,18){\scriptsize Cidade Universit�ria, S�o Paulo, SP}
+
+
+        \put(26,12){\textsc{\scriptsize email:}}
+        \put(26,9) {\textsc{\scriptsize tel:}}
+        \put(26,6) {\textsc{\scriptsize url:}}
+
+        \put(37,12){\scriptsize carreiravr@gmail.com}
+        \put(37,9) {\scriptsize (21)99828-8484}
+        \put(37,6) {\scriptsize \url{https://github.com/VictorCarreira}}
+
+        \put(5,18){\includegraphics[width=1.5cm]{./arch.pdf}}
+
+        \put(3,3)  {\line(1,0) {83}}
+        \put(0,-1) {\line(0,-1){1}}
+        \put(-1,0) {\line(-1,0){1}}
+        \put(89,-1){\line(0,-1){1}}
+        \put(90,0) {\line(1,0) {1}}
+      \end{picture}}}
+\end{picture}
+\end{document}

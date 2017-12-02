@@ -1,0 +1,60 @@
+\documentclass[10pt]{beamer} %para apresentação normal
+%\documentclass[10pt,a4paper,final]{article}
+\usetheme{default}
+\usefonttheme{serif}
+%\usecolortheme{default}
+%%%%%%%%%%%%%%%%%%%%PACOTES EXTRAS%%%%%%%%%%%%%%%%%%%
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[portuguese, english]{babel}
+\usepackage{graphicx} % Required for including images
+\usepackage{graphics}
+%\usepackage{xcolor}
+%\usepackage[svgnames]{xcolor}
+%\usepackage[pdftex]{color,graphicx}
+\graphicspath{{figures/}} % Location of the graphics files
+%\usepackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
+\usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
+\setbeamertemplate{navigation symbols}{}%removendo a barra inferior do beamer
+\begin{document}
+
+{%
+	\usebackgroundtemplate{
+		\centering
+		\includegraphics[width=\paperwidth,height=\paperheight]{fundocartao.png}
+	}
+
+	\begin{frame}
+		\begin{figure}
+			\centering
+			\includegraphics[scale=0.1]{greek.png}
+		\end{figure}
+        %\vspace{0.1cm}
+        \begin{center}{Victor Carreira}
+					\\
+					Professor particular
+					\\
+					Matem\'atica, f\'isica, qu\'imica e inform\'atica
+        \end{center}
+         \vspace{1cm}    
+				\begin{equation}
+					erf(x)=\dfrac{2}{\sqrt{\pi}}\int^{x}_{0}e^{-t^{2}}dt \nonumber
+				\end{equation}
+
+        \vspace{1.5cm}
+			  \begin{center}
+				\textcolor{yellow}{Telefone: (21)99828-8484}
+			 \\
+			 \textcolor{yellow}{E-mail: carreiravr@gmail.com}
+			 \\
+			 \textcolor{yellow}{Website: https://github.com/VictorCarreira}
+
+			\end{center}
+
+
+
+
+
+	\end{frame}
+}
+\end{document}
