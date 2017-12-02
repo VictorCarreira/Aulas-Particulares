@@ -1,7 +1,7 @@
 # [Aulas Particulares]()
 
 <p align="center">
-  <img src="Cartão/virtual.jpg" width="750"/>
+  <img src="Cartão/virtual.jpg" width="550"/>
 </p>
 
 
